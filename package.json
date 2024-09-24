@@ -1,6 +1,6 @@
 {
   "name": "bx-lib-js-logger",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Librería para generar logs con el estándar de Blue",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
