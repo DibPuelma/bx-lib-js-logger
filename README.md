@@ -1,6 +1,6 @@
 Para usar esta librería existen dos formas. Creando un Servicio en Nest o importándola directamente.
 
-La librería utilizara por defecto el valor de entorno de la variable `BX_LOG_LEVEL` de cada proyecto. Si esta variable no existe, por defecto se usa `info`
+La librería utilizara por defecto el valor de entorno de la variable `BX_LOG_LEVEL` de cada proyecto. Si esta variable no existe, por defecto se usa `error`
 
 ### Usando un servicio de Nest
 

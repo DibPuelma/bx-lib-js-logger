@@ -16,7 +16,7 @@ class Logger {
     }
     this.application_id = application_id;
     this.subdomain = subdomain;
-    this.log_level = log_level || process.env.BX_LOG_LEVEL?.toLocaleLowerCase() as LogLevel || 'info';
+    this.log_level = log_level || process.env.BX_LOG_LEVEL?.toLocaleLowerCase() as LogLevel || 'error';
     this.logger = winston.createLogger({
       level: this.log_level, // Nivel de log por defecto
       format: winston.format.combine(
